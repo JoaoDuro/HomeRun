@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HomeRun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="i/favicon.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,600,500,700,800,900|DM+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 4.3.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Startup 3 CSS (Styles for all blocks) -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- jQuery 3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation 2 -->
+    <nav class="fixed-top  padding-header bg-red lh-40 navigation_2">
+      <div class="container px-xl-0">
+        <div class="row align-items-center justify-content-between">
+          <div
+            class="col-xl-2 col-lg-3 text-center text-lg-left"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="0"
+          >
+           
+            <img src="i/HRlogo.jpeg" height="60px" class="logo1">
+		  
+
+          </div>
+			  <div class="col-md-6 d-flex justify-content-end align-items-center">
+				<a href="#Header" class="link color-white f-18 mx-15">Home</a>
+				<a href="#Benefits" class="link color-white f-18 mx-15">Benefits</a>
+				<a href="#Pricing" class="link color-white f-18 mx-15">Get Premium</a>
+				<a href="#Download" class="link color-white f-18 mx-15">Download</a>
+				<a href="#Team" class="link color-white f-18 mx-15">Our Team</a>
+			  </div>
+
+			</div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navigation Mobile type 2 -->
+
+    <a class="open_menu color-main bg-light radius_full">
+      <i class="fas fa-bars lh-40"></i>
+    </a>
+    <div class="navigation_mobile bg-light type2">
+      <a class="close_menu color-main"><i class="fas fa-times"></i></a>
+      <div class="px-40 pt-60 pb-60 text-center inner">
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Home</a>
+        </div>
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Popular</a>
+        </div>
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Recent</a>
+        </div>
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Featured</a>
+        </div>
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Designers</a>
+        </div>
+        <div>
+          <a href="#" class="f-heading f-22 link color-main mb-20">Team</a>
+        </div>
+
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >Help</a
+          >
+        </div>
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >F.A.Q.</a
+          >
+        </div>
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >Support</a
+          >
+        </div>
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >About Us</a
+          >
+        </div>
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >Blog</a
+          >
+        </div>
+        <div>
+          <a
+            href="#"
+            class="f-12 link color-main op-7 text-uppercase sp-20 mb-20"
+            >Careers</a
+          >
+        </div>
+
+        <div class="socials mt-60">
+          <a href="#" target="_blank" class="link color-main f-18 mx-10"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" target="_blank" class="link color-main f-18 mx-10"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" target="_blank" class="link color-main f-18 mx-10"
+            ><i class="fab fa-dribbble"></i
+          ></a>
+          <a href="#" target="_blank" class="link color-main f-18 mx-10"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" target="_blank" class="link color-main f-18 mx-10"
+            ><i class="fab fa-behance"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- Header 2 -->
+    <header id="Header" class="pt-190 pb-120 bg-blue header_2">
+
+      
+
+      <div>
+        <div class="container">
+          <h1
+            class="big color-white text-center"
+            data-aos-duration="600"
+            data-aos="fade-down"
+           data-aos-delay="0"
+		     >
+            Let us design your day
+          </h1>
+        <div
+		    class="mw-620 mx-auto mt-35 f-22 color-white op-7 text-center text-adaptive"
+		    >
+        <div
+          data-aos-duration="600"
+          data-aos="fade-down"
+          data-aos-delay="300"
+		    > 
+		  	  We aim to revolutionize the digital home solutions market,
+		    	optimizing time and simplifying everyone's daily lives.
+        </div>
+  </div>
+
+    </header>
+    <!-- Content 1 -->
+    <section class="pt-80 pb-80 bg-light content_1">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-10 text-center">
+            <div
+              class="f-14 color-heading semibold text-uppercase sp-20"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              We Fight for a Friendly Home Environment
+            </div>
+            <h2
+              class="mt-25"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              color= "color-blue"
+            >
+              Don't waste time when we can do for you!
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <div class="bd-example">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/watch?v=y9ANOzmSKQg" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    
+
+    <!-- Feature 1 -->
+    <section id="Benefits" class="pt-105 pb-45 bg-light text-center feature_1">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <h2
+              class="mb-45 small"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              Our Benefits
+            </h2>
+            <div class="row justify-content-center">
+              <div
+                class="col-md-4 mb-50"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="300"
+              >
+                <i class="fas fa-briefcase f-60 action-3"></i>
+                <div class="mt-20 mb-25 f-22 title">
+                  All in one
+                </div>
+                <div class="color-heading text-adaptive">
+				   All funtionalities in one single platform
+				   Multiple functionalities
+                </div>
+              </div>
+              <div
+                class="col-md-4 mb-50"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+              
+                <i class="fas fa-desktop f-60 action-3"></i>
+                <div class="mt-20 mb-25 f-22 title">
+                  Interactive <br> User Interface
+                </div>
+                <div class="color-heading text-adaptive">
+                  Easy to use <br> Frendly use <br> Intuitive
+                </div>
+              </div>
+              <div
+                class="col-md-4 mb-50"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="900"
+              >
+              <i class="fas fa-compress-arrows-alt f-60 action-3"></i>
+                <div class="mt-20 mb-25 f-22 title">Automated System Management</div>
+                <div class="color-heading text-adaptive">
+                  All information is managed automaticly to insure the best possible performance
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application 2 -->
+    <section class="pt-65 pb-65 bg-light application_2">
+      <div class="container px-xl-0">
+        <div
+          class="row justify-content-center justify-content-md-between align-items-center"
+        >
+          <div
+            class="mb-10 mb-md-0 col-12 col-md-5 col-xl-6 d-flex justify-content-center"
+          >
+            <img
+              src="i/application_2_img_1.png"
+              srcset="i/application_2_img_1@2x.png 2x"
+              alt=""
+              class="img-fluid application_2_left_img"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="750"
+            />
+          </div>
+          <div class="col-md-7 col-xl-6">
+            <h2
+              class="color-blue"
+              class="col-lg-11 color-main"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              What can we do for You?
+            </h2>
+            <div class="mt-95 row">
+              <div
+                class="col-6 col-lg-4 pb-25 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="300"
+			  >
+			  <i class="fas fa-clock f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+                  Time Management
+                </div>
+              </div>
+              <div
+                class="col-6 col-lg-4 pb-25 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="450"
+              >
+			  <i class="fas fa-calendar-alt f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+				        Shared Schedules
+                </div>
+              </div>
+              <div
+                class="col-6 col-lg-4 pb-25 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+			  <i class="fas fa-balance-scale f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+                  Financial Control
+                </div>
+              </div>
+              <div
+                class="col-6 col-lg-4 pb-25 pt-35 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="750"
+              >
+			  <i class="fas fa-bell f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+                  Sticky Notes
+                </div>
+              </div>
+              <div
+                class="col-6 col-lg-4 pb-25 pt-35 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="900"
+              >
+			  <i class="fas fa-clipboard-list f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+                  Shared Lists
+                </div>
+              </div>
+              <div
+                class="col-6 col-lg-4 pb-25 pt-35 with_borders"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="1050"
+              >
+			  <i class="fas fa-comments f-60 action-3"></i>
+                <div
+                  class="mt-15 col-xl-11 color-blue f-14 bold sp-20 text-uppercase"
+                >
+                  Chat
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing table 2 -->
+    <section id="Pricing" class="pt-80 pb-70 bg-light text-center pricing_table_2">
+      <div class="container px-xl-0">
+        <div
+          class="f-14 semibold text-uppercase sp-20 color-heading"
+          data-aos-duration="600"
+          data-aos="fade-down"
+          data-aos-delay="0"
+        >
+          Pricing Plan
+        </div>
+        <h2
+          class="mt-15 mb-55 small"
+          data-aos-duration="600"
+          data-aos="fade-down"
+          data-aos-delay="300"
+        >
+          Clear &amp; Simple
+        </h2>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-xl-10">
+            <div class="row justify-content-center">
+              <div
+                class="col-lg-3 col-md-5 col-sm-6 mb-70 mb-lg-0 block"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="0"
+              >
+                <div class="f-22 title">Free</div>
+                <div class="mt-10 color-heading subtitle">0€/month</div>
+                <div
+                  class="mx-auto mt-25 bg-gray f-62 lh-130 color-heading w-130 h-130 radius_full"
+                >
+                  <i class="fas fa-bolt"></i>
+                </div>
+                <a href="#" class="btn mt-40 border-gray color-blue"
+                  >Get Started</a
+                >
+                <div class="mt-45 text-adaptive">
+                  <div>Group up to 2 Members </div>
+                  <div>Limited shared list</div>
+                  <div>No Sticky Notes</div>
+                  <div>Limit file size</div>
+                  <div>Adds</div>
+                  
+                </div>
+              </div>
+
+              <div
+                class="col-lg-3 col-md-5 col-sm-6 mb-70 mb-sm-0 block"
+                data-aos-duration="600"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+                <div class="f-22 title">Premium</div>
+                <div class="mt-10 color-heading subtitle">2€/month or 20€/year</div>
+                <div
+                  class="mx-auto mt-25 bg-gray f-62 lh-130 color-heading w-130 h-130 radius_full"
+                >
+                
+                  <i class="fas fa-heart"></i>
+                </div>
+                <a href="#" class="btn mt-40 action-1 ">Get Started</a>
+                <div class="mt-45 text-adaptive">
+                  <div>No adds</div>
+                  <div>No group limits</div>
+                  <div>Unlimited Size per File</div>
+          
+                </div>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action 1 -->
+    <section id="Download" class="pt-110 pb-95 bg-light  text-center call_to_action_1">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10">
+            <h2 data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
+              Download our app 
+            </h2>
+          </div>
+          <div class="col-xl-7 col-lg-9 col-md-10">
+            <img class="commingSoon" src="i/CommingSoon.png" class="commingsoon" alt="">
+            <div
+              class="mt-10 mb-40 f-22 color-heading text-adaptive description"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              for IOS and Android
+            </div>
+            <div class="et_pb_text_inner">
+              <p>
+                <a href="https://itunes.apple.com/" target="_blank" rel="noopener noreferrer">
+                  <img class="alignleft " src="i/googleplay.png" alt="" width="" height="75">
+                </a>
+                <a href="https://itunes.apple.com/" target="_blank" rel="noopener noreferrer">
+                  <img class="alignright " src="i/AppStore.png" alt="" width="" height="110">
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team 1 -->
+    <section id="Team" class="pt-100 pb-100 bg-light text-center team_1">
+      <div class="container px-xl-0">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10">
+            <h2
+              class="mb-20 small"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="0"
+            >
+              Our Team
+            </h2>
+            <div
+              class="f-22 color-heading text-adaptive"
+              data-aos-duration="600"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              We have created a new product that will help designers, developers
+              and companies create websites for their startups quickly and
+              easily.
+            </div>
+          </div>
+        </div>
+        <div class="mt-20 row justify-content-center">
+          <div
+            class="mt-60 col-lg-4 col-md-7 col-sm-10"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
+            <div class="radius10 pt-50 block">
+              <img
+                src="i/catarina.png"
+                srcset="i/catarina.png 2x"
+                alt=""
+                class="radius_full"
+              />
+              <div class="mt-25 mb-15 f-22 title">Catarina Vergas</div>
+                <div class="f-14 semibold text-uppercase sp-20 color-heading">
+                  Developer
+                </div>
+                <div class="mt-35 row justify-content-center no-gutters block_socials">
+            
+                  <a
+                    href="https://www.linkedin.com/in/catarinapvergas/"
+                    class="link f-22 lh-60 color-heading"
+                    target="_blank"
+                  >
+
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+            </div>
+          </div>
+          <div
+            class="mt-60 col-lg-4 col-md-7 col-sm-10"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
+            <div class="radius10 pt-50 block">
+              <img
+                src="i/Goncalo.png"
+                srcset="i/Goncalo.png 2x"
+                alt=""
+                class="radius_full"
+              />
+              <div class="mt-25 mb-15 f-22 title">Gonçalo Carreiro</div>
+              <div class="f-14 semibold text-uppercase sp-20 color-heading">
+                Developer
+              </div>
+              <div class="mt-35 row justify-content-center no-gutters block_socials">
+            
+                <a
+                  href="https://www.linkedin.com/in/goncalocarreiro/"
+                  class="link f-22 lh-60 color-heading"
+                  target="_blank"
+                >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+		<div class="mt-20 row justify-content-center">
+			<div
+			  class="mt-60 col-lg-4 col-md-7 col-sm-10"
+			  data-aos-duration="600"
+			  data-aos="fade-down"
+			  data-aos-delay="300"
+			>
+			  <div class="radius10 pt-50 block">
+				<img
+				  src="i/duro.png"
+				  srcset="i/duro.png 2x"
+				  alt=""
+				  class="radius_full"
+				/>
+				<div class="mt-25 mb-15 f-22 title">João Maria Duro</div>
+				<div class="f-14 semibold text-uppercase sp-20 color-heading">
+				  Developer
+				</div>
+				<div class="mt-35 row justify-content-center no-gutters block_socials">
+            
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-duro-764753185/"
+            class="link f-22 lh-60 color-heading"
+            target="_blank"
+          >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+				</div>
+			  </div>
+			</div>
+			<div
+			  class="mt-60 col-lg-4 col-md-7 col-sm-10"
+			  data-aos-duration="600"
+			  data-aos="fade-down"
+			  data-aos-delay="600"
+			>
+			  <div class="radius10 pt-50 block">
+				<img
+				  src="i/Tomas.png"
+				  srcset="i/Tomas.png 2x"
+				  alt=""
+				  class="radius_full"
+				/>
+				<div class="mt-25 mb-15 f-22 title">Tomás de Sá</div>
+				<div class="f-14 semibold text-uppercase sp-20 color-heading">
+				  Developer
+				</div>
+				<div class="mt-35 row justify-content-center no-gutters block_socials">
+            
+          <a
+            href="#"
+            class="link f-22 lh-60 color-heading"
+            target="_blank"
+          >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+      </div>
+    </section>
+
+    <!-- Footer 1 -->
+    <footer class="bg-blue pt-10 pb-footer mt-10 text-center footer_1">
+      <div class="container px-xl-0">
+        <div class="row justify-content-between align-items-center lh-40 links">
+          <div
+            class="col-lg-4 col-sm-6 text-sm-right text-lg-left order-1 order-lg-0"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
+            <a href="#" class="link mr-15 color-white">About</a>
+            <a href="#" class="link mx-15 color-white">Policy</a>
+            <a href="#" class="link mx-15 color-white">Terms</a>
+          </div>
+          <div
+            class="mb-10 mb-lg-0 col-lg-auto order-0"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="0"
+          >
+            <a href="#" class="link logo color-white">© HomeRun</a>
+          </div>
+          <div
+            class="col-lg-4 col-sm-6 text-sm-left text-lg-right order-2 order-lg-0"
+            data-aos-duration="600"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
+            <a href="#" class="link mr-15 color-white">Contacts:</a>
+            <a href="#" class="mx-15 link color-twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="mx-15 link color-facebook">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#" class="ml-15 link color-instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
+    <!--
+		<div class="bg-dark op-8 grecaptcha-overlay"></div>
+		<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
+			<div class="w-full h-full d-flex justify-content-center align-items-center">
+				<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
+			</div>
+		</div>
+		<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+		-->
+    <!-- Bootstrap 4.3.1 JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- Google maps JS API -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"
+    ></script>
+    <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- Startup 3 JS (Custom js for all blocks) -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

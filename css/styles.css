@@ -1,0 +1,59 @@
+.logoNAV{
+    max-width: 10px;
+}
+
+.bg-price{
+    background-image: url("../i/CommingSoon.png");
+}
+
+.commingSoon{
+    justify-content: center;
+    height: 200px;
+    margin-top: 30px;
+}
+
+
+.color-header{
+    color: white; 
+}
+.bgcolor-header{
+    color: #05415c;
+}
+
+.color-greey{
+    color: #8e8e8e;
+}
+
+.color-blue{
+    color: #05415c;
+}
+
+.color-red{
+    color: #C80A39
+}
+
+.color-yellow{
+    color: #Fa9500;
+}
+
+.bg-greey{
+    background-color: #8e8e8e;
+}
+
+.bg-blue{
+    background-color: #05415c;
+}
+
+.bg-red{
+    background-color: #C80A39
+}
+
+.bg-yellow{
+    background-color: #Fa9500;
+}
+
+.logo-size{
+    height: 300px;
+    background-color: #000;
+
+}
